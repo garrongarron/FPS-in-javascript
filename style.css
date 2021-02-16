@@ -7,6 +7,11 @@ body {
 .hide{
     display: none;
 }
+.help{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
 .pointer{
     position: fixed;
     top: 50%;

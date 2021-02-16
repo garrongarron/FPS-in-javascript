@@ -13,3 +13,9 @@ document.addEventListener('keyup',(e)=>{
         pointer.classList.add('hide')
     }
 })
+
+
+let help = document.createElement('div')
+help.classList.add('help')
+help.innerHTML = `W=>Up; S=>Down; E=>Aim; Click to shoot`
+document.body.appendChild(help)
